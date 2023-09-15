@@ -195,6 +195,8 @@ p {
 
 .content__video {
   align-self: stretch;
+  margin: 16px 0px;
+  gap: 16px;
 }
 
 .info {
