@@ -413,6 +413,7 @@ p {
 
   .hero {
     background-image: none;
+    margin-left: 0px;
   }
 
   .hero__elements {
@@ -424,6 +425,12 @@ p {
     color: var(--black);
     align-items: center;
     text-align: center;
+    width: auto;
+  }
+
+  .hero__elements__cta__txt {
+    text-align: center;
+    width: 80%;
   }
 
   .content-container {
@@ -456,5 +463,17 @@ p {
 
   .container {
     flex-direction: column;
+  }
+
+  .content-container {
+    margin-left: 0px;
+  }
+
+  .team__section {
+    align-items: center;
+  }
+
+  .team__section__cards {
+    justify-content: center;
   }
 }
