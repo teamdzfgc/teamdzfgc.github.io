@@ -425,4 +425,36 @@ p {
     align-items: center;
     text-align: center;
   }
+
+  .content-container {
+    margin-left: 0;
+  }
+
+  .nav {
+    position: relative;
+    height: auto;
+    width: 100vw;
+    flex-direction: column-reverse;
+    gap: 16px;
+    padding: 16px 0px;
+  }
+
+  .socials {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .menu {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .menu__btn {
+    padding: 12px 24px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
 }
